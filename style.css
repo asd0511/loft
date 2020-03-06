@@ -125,3 +125,7 @@ h1 {
     font-weight: bold;
     font-size: 30px;
 }
+
+.logo {
+    fill:black;
+}
