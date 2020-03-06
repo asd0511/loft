@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Heavy.eot');
+    src: url('Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Heavy.woff2') format('woff2'),
+        url('Gilroy-Heavy.woff') format('woff'),
+        url('Gilroy-Heavy.ttf') format('truetype'),
+        url('Gilroy-Heavy.svg#Gilroy-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.eot');
+    src: url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Light.woff2') format('woff2'),
+        url('Gilroy-Light.woff') format('woff'),
+        url('Gilroy-Light.ttf') format('truetype'),
+        url('Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('Arvo-Italic.eot');
+    src: url('Arvo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Arvo-Italic.woff2') format('woff2'),
+        url('Arvo-Italic.woff') format('woff'),
+        url('Arvo-Italic.ttf') format('truetype'),
+        url('Arvo-Italic.svg#Arvo-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('Arvo.eot');
+    src: url('Arvo.eot?#iefix') format('embedded-opentype'),
+        url('Arvo.woff2') format('woff2'),
+        url('Arvo.woff') format('woff'),
+        url('Arvo.ttf') format('truetype'),
+        url('Arvo.svg#Arvo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype'),
+        url('Gilroy-Black.svg#Gilroy-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBold.eot');
+    src: url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-ExtraBold.woff2') format('woff2'),
+        url('Gilroy-ExtraBold.woff') format('woff'),
+        url('Gilroy-ExtraBold.ttf') format('truetype'),
+        url('Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('Arvo-BoldItalic.eot');
+    src: url('Arvo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Arvo-BoldItalic.woff2') format('woff2'),
+        url('Arvo-BoldItalic.woff') format('woff'),
+        url('Arvo-BoldItalic.ttf') format('truetype'),
+        url('Arvo-BoldItalic.svg#Arvo-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype'),
+        url('Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('Arvo-Bold.eot');
+    src: url('Arvo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Arvo-Bold.woff2') format('woff2'),
+        url('Arvo-Bold.woff') format('woff'),
+        url('Arvo-Bold.ttf') format('truetype'),
+        url('Arvo-Bold.svg#Arvo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url('TenorSans.eot');
+    src: url('TenorSans.eot?#iefix') format('embedded-opentype'),
+        url('TenorSans.woff2') format('woff2'),
+        url('TenorSans.woff') format('woff'),
+        url('TenorSans.ttf') format('truetype'),
+        url('TenorSans.svg#TenorSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
