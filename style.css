@@ -1,4 +1,4 @@
-/* Подключаем шрифты. Дизайнер с шрифтами не заморачивался, но клиент настоял на этом кол-ве.  */
+/* -----• Подключаем шрифты. Дизайнер с шрифтами не заморачивался, но клиент настоял на этом кол-ве. •----- */
 
 @font-face {
     font-family: 'Gilroy-Heavy';
@@ -92,6 +92,20 @@ a {
     text-decoration: none;
 }
 
+
+/* -----• Button design •----- */
+
+button {
+    box-shadow: 0 4px 0 #f76f02, 0 17px 29px rgba(254, 186, 19, 0.63);
+    border-radius: 10px;
+    border: 1px solid #fcd20d;
+    background-image: linear-gradient(to top, #fcd10e 0%, #fcd10e 1%, #ffaa16 5%, #fcd20d 100%);
+    font-family: "Gilroy";
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
 .pack {
     width: 100%;
     max-width: 1140px;
@@ -105,7 +119,7 @@ a {
 }
 
 
-/* ----- Header ----- */
+/* -----• Header •----- */
 
 .header {
     position: absolute;
@@ -160,15 +174,13 @@ a {
 }
 
 
-/* ----- intro ----- */
+/* -----• intro •----- */
 
 .intro {
+    background-position: center center;
     background: url(image/background-intro.jpg) center no-repeat;
     height: 100vh;
     background-size: cover;
-}
-
-.head__intro {
     padding-top: 175px;
 }
 
@@ -179,7 +191,7 @@ a {
 .book {
     display: flex;
     align-items: end;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 .book__text {
@@ -188,12 +200,10 @@ a {
     line-height: 20px;
 }
 
-.chair {
-
-}
-
 .chair__foto {
-    z-index: 10;
+    position: relative;
+    z-index: 11;
+    margin: 10px 0 0 114px;
 }
 
 .circle {
@@ -201,8 +211,11 @@ a {
     height: 145px;
     background-color: #fdc710;
     border-radius: 50%;
-    display: inline-block;
     display: flex;
+    position: relative;
+    left: 774px;
+    bottom: 320px;
+    z-index: 10;
 }
 
 .chair__text {
@@ -211,3 +224,120 @@ a {
     font-family: "Gilroy";
     align-self: center;
 }
+
+.btn__intro {
+    width: 355px;
+    height: 64px;
+    /* Text style for "Смотреть о" */
+}
+
+.yellow {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* ----- • Screen two • ----- */
+
+.screen__two {
+    background-image: url(image/wood_bck.svg);
+    background-repeat: no-repeat;
+    background-position: bottom -75px left -140px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.screen__two__head {
+    display: flex;
+}
+
+.title {
+    font-family: "Arvo";
+    color: #191919;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 235px 60px 0;
+}
+
+.text {
+    background: linear-gradient(to left, #bababa 0%, #6f6f6f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #191919;
+    font-size: 18px;
+    line-height: 28px;
+    min-width: 300px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.gallery__item {
+    border: 7px solid #181818;
+}
+
+.gallery__title__description {
+    display: inline-block;
+    margin: 15px 0 20px 0;
+    color: #191919;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Gilroy";
+    font-weight: 800;
+}
+
+.desk {
+    font-family: "Gilroy";
+    font-weight: 300px;
+    color: #626262;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+
+
+/* ----- • Screen three • ----- */
+
+.screen__three {
+    padding: 95px;
+    text-align: center;
+    background-image: url(image/shrub.png), linear-gradient(46deg, #191919 0%, #383838 100%);
+    background-repeat: no-repeat;
+    background-position: left bottom -70px, center center;
+    position: relative;
+}
+
+.title_screen__three {
+    margin: 0 0 92px 0;
+}
+
+.white {
+    /* ----- • Задаем цвет заголовку и описанию под фото • ----- */
+    color: white;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.width500 {
+    font-weight: 500;
+}
+
+.pack_w {
+    position: absolute;
+    width: 631px;
+    right: 0;
+    top: -550px;
+    z-index: 50;
+    overflow: hidden;
+}
+
+
