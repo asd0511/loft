@@ -80,14 +80,28 @@
     font-style: normal;
 }
 
+* {
+    margin: 0 0 0 0;
+}
+
+body {
+    font-size: 16px;
+}
+
 a {
     text-decoration: none;
 }
 
 .pack {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
+}
+
+.head {
+    font-family: "Arvo";
+    font-size: 36px;
+    letter-spacing: 0.09px;
 }
 
 
@@ -152,4 +166,48 @@ a {
     background: url(image/background-intro.jpg) center no-repeat;
     height: 100vh;
     background-size: cover;
+}
+
+.head__intro {
+    padding-top: 175px;
+}
+
+.proba {
+    display: flex;
+}
+
+.book {
+    display: flex;
+    align-items: end;
+    padding-top: 20px;
+}
+
+.book__text {
+    max-width: 355px;
+    font-family: "Gilroy";
+    line-height: 20px;
+}
+
+.chair {
+
+}
+
+.chair__foto {
+    z-index: 10;
+}
+
+.circle {
+    width: 145px;
+    height: 145px;
+    background-color: #fdc710;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+}
+
+.chair__text {
+    text-align: center;
+    line-height: 1.3em;
+    font-family: "Gilroy";
+    align-self: center;
 }
