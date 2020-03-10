@@ -274,7 +274,7 @@ button {
 .gallery {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
 }
 
 .gallery__item {
@@ -293,7 +293,7 @@ button {
 
 .desk {
     font-family: "Gilroy";
-    font-weight: 300px;
+    font-weight: 300;
     color: #626262;
     font-weight: 300;
     line-height: 24px;
@@ -341,3 +341,211 @@ button {
 }
 
 
+/* ----- • Screen for • ----- */
+
+.screen__for {
+    padding: 90px;
+}
+
+.title_screen__three {
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product__item {
+    width: 233px;
+    height: 469px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.sale {
+    width: 44px;
+    height: 23px;
+    border-radius: 5px;
+    background-color: #f24841;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7em;
+    font-family: "Gilroy";
+    font-weight: 700;
+}
+
+.old__sale {
+    color: #898989;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: line-through;
+    text-align: center;
+    font-family: "Arvo";
+}
+
+.product__desk {
+    margin-bottom: 15px;
+}
+
+.cost {
+    width: 149px;
+    height: 32px;
+    border-radius: 5px;
+    margin: 10px auto 0px auto;
+    background-color: #fdc710;
+    text-align: center;
+    line-height: 2em;
+}
+
+
+/* ----- • Screen five • ----- */
+
+.screen_five {
+    padding-bottom: 90px;
+    background: url(image/wood-sf.svg) no-repeat right;
+    background-position-x: 1680px;
+    background-position-y: 401px;
+}
+
+.title__screen__five {
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.title__sf {
+    margin: 0;
+}
+
+.circle_book {
+    display: flex;
+    position: relative;
+}
+
+.circle__book__foto {
+    position: absolute;
+    right: 105px;
+}
+
+.circle_sf {
+    width: 145px;
+    height: 145px;
+    background-color: #fdc710;
+    border-radius: 50%;
+    display: flex;
+}
+
+.circle_sf__text {
+    font-family: "Gilroy";
+    color: #191919;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.btn_ss {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* ----- • Screen six • ----- */
+
+.screen__six {
+    background: url(image/background-ss.jpg) no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 1140px;
+    padding: 95px 0;
+}
+
+.advertising {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advertising__box {
+    display: flex;
+    align-items: center;
+}
+
+.advertising_stroke {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.btn_six {
+    width: 287px;
+    height: 64px;
+}
+
+.advertising__text {
+    font-family: "Gilroy";
+    color: #191919;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.small {
+    color: #191919;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: "Gilroy";
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* ----- • Screen seven • ----- */
+
+.scree__seven {
+    background-image: url(image/bckg-seven-left.svg), url(image/bck-seven-right.svg), url(image/yellow.png);
+    background-repeat: no-repeat;
+    background-position: left -70px top, right bottom, right 200px top 30px;
+    padding: 35px 0 95px 0;
+}
+
+.benefit {
+    display: flex;
+}
+
+.benefit__list__item {
+    font-family: "Gilroy";
+    list-style-type: none;
+    margin-bottom: 70px;
+    list-style-image: url(image/bckg-list-seven-screen.png);
+}
+
+.benefit__foto {
+    margin-right: 40px;
+}
+
+.footer {
+    padding: 95px;
+    background-image: url(image/footer-chrumb.png), url(image/footer-lamp.png), linear-gradient(-216deg, #383838 0%, #191919 100%);
+    background-repeat: no-repeat;
+    background-position: right -170px bottom, left -290px bottom -310px, center center;
+}
+}
+
+.ftr_foto {
+    margin-bottom: 30px;
+}
