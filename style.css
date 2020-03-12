@@ -80,12 +80,14 @@
     font-style: normal;
 }
 
-* {
-    margin: 0 0 0 0;
-}
-
 body {
     font-size: 16px;
+}
+
+@media screen and (max-width:465px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 a {
@@ -124,10 +126,22 @@ button:active {
     margin: 0 auto;
 }
 
+@media screen and (max-width:465px) {
+    .pack {
+        max-width: 300px;
+    }
+}
+
 .head {
     font-family: "Arvo";
     font-size: 36px;
     letter-spacing: 0.09px;
+}
+
+@media screen and (max-width:465px) {
+    .head {
+        font-size: 22px;
+    }
 }
 
 
@@ -148,9 +162,21 @@ button:active {
     align-items: center;
 }
 
+@media screen and (max-width:465px) {
+    .header__inner {
+        flex-direction: column;
+    }
+}
+
 .sample {
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width:465px) {
+    {
+        display: none;
+    }
 }
 
 .sample__text {
@@ -172,6 +198,12 @@ button:active {
     font-size: 23px;
     font-weight: 700;
     letter-spacing: 1.15px;
+}
+
+@media screen and (max-width:465px) {
+    .tel {
+        font-size:30px;
+    }
 }
 
 .header__text {
@@ -199,8 +231,20 @@ button:active {
     padding-top: 175px;
 }
 
+@media screen and (max-width:465px) {
+    .padding_intro {
+        padding-top: 350px;
+    }
+}
+
 .proba {
     display: flex;
+}
+
+@media screen and (max-width:465px) {
+    .proba {
+        display: block;
+    }
 }
 
 .book {
@@ -221,6 +265,12 @@ button:active {
     margin: 10px 0 0 114px;
 }
 
+@media screen and (max-width:465px) {
+    .chair__foto {
+        position: static;
+    }
+}
+
 .circle {
     width: 145px;
     height: 145px;
@@ -233,6 +283,12 @@ button:active {
     z-index: 10;
 }
 
+@media screen and (max-width:465px) {
+    .circle {
+        position: static;
+    }
+}
+
 .chair__text {
     text-align: center;
     line-height: 1.3em;
@@ -243,6 +299,12 @@ button:active {
 .btn__intro {
     width: 355px;
     height: 64px;
+}
+
+@media screen and (max-width:465px) {
+    .btn__intro {
+        width: 290px;
+    }
 }
 
 .yellow {
@@ -258,7 +320,6 @@ button:active {
     background-image: url(image/wood_bck.svg);
     background-repeat: no-repeat;
     background-position: bottom -75px left -140px;
-    overflow: hidden;
     margin-top: 100px;
 }
 
@@ -272,7 +333,6 @@ button:active {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
-    margin: 0 235px 60px 0;
 }
 
 .text {
@@ -289,6 +349,12 @@ button:active {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+@media screen and (max-width:465px) {
+    .gallery {
+        flex-direction: column;
+    }
 }
 
 .gallery__item {
@@ -341,6 +407,12 @@ button:active {
     align-items: flex-end;
 }
 
+@media screen and (max-width:465px) {
+    .advantages {
+        display: block;
+    }
+}
+
 .advantages_box {
     text-align: center;
 }
@@ -370,6 +442,12 @@ button:active {
 
 .screen__for {
     padding: 90px;
+}
+
+@media screen and (max-width:465px) {
+    .screen__for {
+        padding: 20px;
+    }
 }
 
 .title_screen__three {
@@ -455,9 +533,23 @@ button:active {
     position: relative;
 }
 
+@media screen and (max-width:465px) {
+    .circle_book {
+        display: inline-block;
+        position: static;
+    }
+}
+
 .circle__book__foto {
     position: absolute;
     right: 105px;
+}
+
+@media screen and (max-width:465px) {
+    .circle__book__foto {
+        display: inline-block;
+        position: static;
+    }
 }
 
 .circle_sf {
@@ -500,6 +592,12 @@ button:active {
     padding: 95px 0;
 }
 
+@media screen and (max-width:465px) {
+    .screen__six {
+        padding: 20px;
+    }
+}
+
 .advertising {
     display: flex;
     justify-content: space-between;
@@ -510,11 +608,25 @@ button:active {
     align-items: center;
 }
 
+@media screen and (max-width:465px) {
+    .advertising {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 .advertising_stroke {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
+}
+
+@media screen and (max-width:465px) {
+    .advertising_stroke {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 .btn_six {
@@ -552,8 +664,21 @@ button:active {
     padding: 35px 0 95px 0;
 }
 
+@media screen and (max-width:465px) {
+    .scree__seven {
+        background-color: aqua;
+        background-image: none;
+    }
+}
+
 .benefit {
     display: flex;
+}
+
+@media screen and (max-width:465px) {
+    .benefit {
+        display: block;
+    }
 }
 
 .benefit__list__item {
@@ -574,6 +699,29 @@ button:active {
     background-position: right -170px bottom, left -290px bottom -310px, center center;
 }
 
+@media screen and (max-width:465px) {
+    .footer {
+        padding: 20px;
+    }
+}
+
 .ftr_foto {
     margin-bottom: 30px;
+}
+
+
+/* ----- Убираем из мобильной версии ----- */
+
+@media screen and (max-width:465px) {
+    .circle_book,
+    .text,
+    .chair,
+    .book,
+    .circle,
+    .circle_sf,
+    .social__icon,
+    .sample
+    {
+        display: none;
+    }
 }
