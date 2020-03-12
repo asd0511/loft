@@ -202,7 +202,7 @@ button:active {
 
 @media screen and (max-width:465px) {
     .tel {
-        font-size:30px;
+        font-size: 30px;
     }
 }
 
@@ -380,6 +380,13 @@ button:active {
     margin-bottom: 100px;
 }
 
+@media screen and (max-width:465px) {
+    .desk {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
 
 /* ----- • Screen three • ----- */
 
@@ -396,6 +403,17 @@ button:active {
     margin: 0 0 92px 0;
 }
 
+@media screen and (max-width:465px) {
+    .screen__three {
+        position: static;
+        padding: 20px;
+        background-image: linear-gradient(46deg, #191919 0%, #383838 100%);
+    }
+    .title_screen__three {
+        margin: 0 0 30px 0;
+    }
+}
+
 .white {
     /* ----- • Задаем цвет заголовку и описанию под фото • ----- */
     color: white;
@@ -410,6 +428,7 @@ button:active {
 @media screen and (max-width:465px) {
     .advantages {
         display: block;
+        text-align: center;
     }
 }
 
@@ -423,6 +442,15 @@ button:active {
 
 .advantages_box:nth-last-child(n+2) {
     margin-right: 90px;
+}
+
+@media screen and (max-width:465px) {
+    .advantages_box:nth-last-child(n+2) {
+        margin-right: 0px;
+    }
+    .advantages_box p {
+        text-align: center;
+    }
 }
 
 .width500 {
@@ -444,12 +472,6 @@ button:active {
     padding: 90px;
 }
 
-@media screen and (max-width:465px) {
-    .screen__for {
-        padding: 20px;
-    }
-}
-
 .title_screen__three {
     text-align: center;
 }
@@ -465,6 +487,18 @@ button:active {
     border-radius: 10px;
     background-color: #f8f8f8;
     text-align: center;
+}
+
+@media screen and (max-width:465px) {
+    .screen__for {
+        padding: 20px;
+    }
+    .product {
+        flex-direction: column;
+    }
+    .product__item {
+        margin-bottom: 20px;
+    }
 }
 
 .product__item:hover {
@@ -515,8 +549,8 @@ button:active {
 .screen_five {
     padding-bottom: 90px;
     background: url(image/wood-sf.svg) no-repeat right;
-    background-position-x: 1680px;
-    background-position-y: 401px;
+    /*     background-position-x: 1680px;
+    background-position-y: 401px;*/
 }
 
 .title__screen__five {
@@ -533,23 +567,9 @@ button:active {
     position: relative;
 }
 
-@media screen and (max-width:465px) {
-    .circle_book {
-        display: inline-block;
-        position: static;
-    }
-}
-
 .circle__book__foto {
     position: absolute;
     right: 105px;
-}
-
-@media screen and (max-width:465px) {
-    .circle__book__foto {
-        display: inline-block;
-        position: static;
-    }
 }
 
 .circle_sf {
@@ -581,6 +601,20 @@ button:active {
     display: block;
 }
 
+@media screen and (max-width:465px) {
+    .circle_book {
+        display: inline-block;
+        position: static;
+    }
+    .screen_five {
+        padding-bottom: 30px;
+    }
+    .circle__book__foto {
+        display: inline-block;
+        position: static;
+    }
+}
+
 
 /* ----- • Screen six • ----- */
 
@@ -590,12 +624,6 @@ button:active {
     background-size: cover;
     min-height: 1140px;
     padding: 95px 0;
-}
-
-@media screen and (max-width:465px) {
-    .screen__six {
-        padding: 20px;
-    }
 }
 
 .advertising {
@@ -608,25 +636,11 @@ button:active {
     align-items: center;
 }
 
-@media screen and (max-width:465px) {
-    .advertising {
-        display: block;
-        margin: 0 auto;
-    }
-}
-
 .advertising_stroke {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-}
-
-@media screen and (max-width:465px) {
-    .advertising_stroke {
-        display: block;
-        margin: 0 auto;
-    }
 }
 
 .btn_six {
@@ -654,6 +668,20 @@ button:active {
     margin-top: 50px;
 }
 
+@media screen and (max-width:465px) {
+    .screen__six {
+        padding: 20px;
+    }
+    .advertising {
+        display: block;
+        margin: 0 auto;
+    }
+    .advertising_stroke {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 
 /* ----- • Screen seven • ----- */
 
@@ -664,21 +692,8 @@ button:active {
     padding: 35px 0 95px 0;
 }
 
-@media screen and (max-width:465px) {
-    .scree__seven {
-        background-color: aqua;
-        background-image: none;
-    }
-}
-
 .benefit {
     display: flex;
-}
-
-@media screen and (max-width:465px) {
-    .benefit {
-        display: block;
-    }
 }
 
 .benefit__list__item {
@@ -690,6 +705,13 @@ button:active {
 
 .benefit__foto {
     margin-right: 40px;
+}
+
+@media screen and (max-width:465px) {
+    .benefit {
+        flex-direction: column;
+    }
+
 }
 
 .footer {
@@ -720,8 +742,11 @@ button:active {
     .circle,
     .circle_sf,
     .social__icon,
-    .sample
-    {
+    .sample {
         display: none;
+    }
+
+    img {
+        max-width: 90%;
     }
 }
