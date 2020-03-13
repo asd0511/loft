@@ -201,8 +201,10 @@ button:active {
 }
 
 @media screen and (max-width:465px) {
-    .tel {
+    .tel, .address {
         font-size: 30px;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -233,7 +235,7 @@ button:active {
 
 @media screen and (max-width:465px) {
     .padding_intro {
-        padding-top: 350px;
+        padding-top: 250px;
     }
 }
 
@@ -711,7 +713,6 @@ button:active {
     .benefit {
         flex-direction: column;
     }
-
 }
 
 .footer {
@@ -742,10 +743,9 @@ button:active {
     .circle,
     .circle_sf,
     .social__icon,
-    .sample {
+    .sample, .light {
         display: none;
     }
-
     img {
         max-width: 90%;
     }
